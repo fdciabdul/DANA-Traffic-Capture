@@ -1,0 +1,20 @@
+(require '[clj-http.client :as client])
+
+(client/post "https://mgs-gw.m.dana.id/mgw.htm" {:headers {:user-agent "samsungSM-N935F"
+                                                           :clientid "230618103359969|230618103359967"
+                                                           :connection "Keep-Alive"
+                                                           :sign "e7702fe92f92fd9b6a948ca8358b40ce"
+                                                           :accept-encoding "gzip"
+                                                           :uuid "8dad6f2f-5b57-4040-a8ae-461dbacf456b"
+                                                           :version "1.0"
+                                                           :akamai-useragent "Skywalker/2.22.0 BuildVersion/2220026 OS/Android"
+                                                           :appid "6CC59C4231550,6CC59C4231550"
+                                                           :x-acf-sensor-data "3,a,KzSEZRPgZ7mFXTSjyrc3bfN9n5Cp5xsXgX4QMjPQtkW6QXpTZbtNXx5RfqrlK2vCZLhA0HtDJgvgXNG6tQxtSsTKRtkgZXzWX0w055le3NeMG3hGCgWRBgFKHqq3rpQXHi98v6Eus1LOe+D/4zX0V6mNXh8Radfm+5vgeP52OfE=,KkHjNjqv9JY35JDJeANmHjxDIG/znwx0B+ygAdIXRRQ4ZMiJxqGz3usF5KWzju+wtE/tV/ViIAYRz0Sl6JrsD4etIJHhC5/72QoEmdB/pg5h9fwU0UohemVJx9r4nH8D5AYg4F3zBZU8m+nC/bzBXMHb/doOi+kK2jWBQGFtuBE=$ehZxo4hRxhOLEG6GuOLEPwom7j/Dgy/FZxi+CjVsZHwp3hSLKWObBpsZNwdPPkxqsW/twwBGPG74Jiqa3vide9yZxGQ0lUhfda+RsJ4JyrUY54Lahn8fUA92uYKmKTlQtehhaxVmbUKUAOtUJMejPSNrbjTJYlp+UeWToGJ0m2ZxUQHzwJGsJel6IHS3hb/VOpzVjXh3+QteQaq++AShEQczYx1+xLiSyvFwQ1dFDUJCjqZ7J3cE/mGCe+Kk0vFP2YAdRF9PxkfD/kBxNi5Clz4JXNzsGrH9ZA/i3oR9cIJeOTw1u2v823ftwGerBrJfgcPhjNrNJw5y7jeGPxudlNMVfUX9rVvCQSjX+h3GM2JZMHzIKtDUIMBah1FaRy2F28LtbJWUkYyrrY81MNKs0PvEBjmfYcuu3GnN3xS96GQ9BMOX7f+w0KegzURRyNpA+zFKp1jVZ81aUQskCBaE2OlCptjux8rJfWPTRPeiEu5H/0/Bqtl5XWJQVsnS/aMZgk2VdxqrtdalbTRc1NDNkQQGMaB4o1wzB9r7K1NyB543n5yn0NUIOaQAIy2+9u9Ov0LfdILtGimllywSNV8Nz0KMfsBRT+YRdePOoJQh70jC9lnGRS0tfQjFDhobjfJIzwP0kIEunYnor0OPu9N8JRTMkmSxMzWxCxgh7eH+uf28LdEQoeqXg4HL5K96HwQRaDgzr0yK5qzf/9LKFilqzihYcYnA2N5LxiHhI7jlZVQkrzQY8rbmmSNvZ4MEp6653FTXytxcmZwUOai4WfumbCJCZxDtUaIonVFCp3eO2m4PD/pLDbm9fNj93PunsZPCZ6XhrfCq7zHklAp7dd3F4UZuAUMjxMGfv/Cf9GbfcDPXWR4jtFl1FTn3djZkisYdUBuep4KmfLIRvaMU9ZLk3aPs2vmk9+VkZDj78NEycaZR2ufdqh8jSDy7R+BAWwV+jElTtytlbunShr6LZdPsHc1gcQYaF+VAuNFF98YKxuSPthrog7JsosLT9jZkciVsri6OEY72nTk23CnqJg7HkLCWNVl7/43pI76cVGn3mmz19RcXfqvm/U27VmQ4qx3J0ugbz5ntAJzk04Spv3ofT4MDvuph7kG6g9+aPKIuQJy+KP0LZF/5tThrjGqlts6Mkuo2FOYUQflsSec/Xa7ctGqXw9/KaMJiHV0EYpaRZphJVeCLIJlTdOI5qjU1xZeMViHLOZ9cNPjGIyfiBB+hWN9lcoBq6nyRU/QHtoC+dJjS9y8q5J5LMIdFiKB+IdyJgb4ApH15E0R5fwhE9LzEAQ==$1000,1000,1000$$"
+                                                           :tenantid "FKPZXBCN"
+                                                           :accept-language "en-US"
+                                                           :x-apdid-token "Xc2+p49QRXaX+UNnAkFArgLMxsYm5elm+hVCx4mIuFDeLpHMiAEAAA=="
+                                                           :did "ZI57J/OzUaQDADniPyzY3Etp"
+                                                           :ts "1687059264815"
+                                                           :workspaceid "prod"
+                                                           :content-type "application/x-www-form-urlencoded; charset=UTF-8"
+                                                           :host "mgs-gw.m.dana.id"}})
